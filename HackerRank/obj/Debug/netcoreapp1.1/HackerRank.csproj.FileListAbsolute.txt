@@ -1,0 +1,9 @@
+c:\users\corle\OneDrive\Documents\Visual Studio 2017\Projects\HackerRank\HackerRank\bin\Debug\netcoreapp1.1\HackerRank.deps.json
+c:\users\corle\OneDrive\Documents\Visual Studio 2017\Projects\HackerRank\HackerRank\bin\Debug\netcoreapp1.1\HackerRank.runtimeconfig.json
+c:\users\corle\OneDrive\Documents\Visual Studio 2017\Projects\HackerRank\HackerRank\bin\Debug\netcoreapp1.1\HackerRank.runtimeconfig.dev.json
+c:\users\corle\OneDrive\Documents\Visual Studio 2017\Projects\HackerRank\HackerRank\obj\Debug\netcoreapp1.1\HackerRank.csprojResolveAssemblyReference.cache
+c:\users\corle\OneDrive\Documents\Visual Studio 2017\Projects\HackerRank\HackerRank\obj\Debug\netcoreapp1.1\HackerRank.AssemblyInfo.cs
+c:\users\corle\OneDrive\Documents\Visual Studio 2017\Projects\HackerRank\HackerRank\bin\Debug\netcoreapp1.1\HackerRank.dll
+c:\users\corle\OneDrive\Documents\Visual Studio 2017\Projects\HackerRank\HackerRank\bin\Debug\netcoreapp1.1\HackerRank.pdb
+c:\users\corle\OneDrive\Documents\Visual Studio 2017\Projects\HackerRank\HackerRank\obj\Debug\netcoreapp1.1\HackerRank.dll
+c:\users\corle\OneDrive\Documents\Visual Studio 2017\Projects\HackerRank\HackerRank\obj\Debug\netcoreapp1.1\HackerRank.pdb
