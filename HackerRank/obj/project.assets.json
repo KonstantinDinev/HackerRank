@@ -7042,10 +7042,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\corle\\OneDrive\\Documents\\Visual Studio 2017\\Projects\\HackerRank\\HackerRank\\HackerRank.csproj",
+      "projectUniqueName": "C:\\Users\\Corle\\Documents\\Github\\HackerRank\\HackerRank\\HackerRank.csproj",
       "projectName": "HackerRank",
-      "projectPath": "c:\\users\\corle\\OneDrive\\Documents\\Visual Studio 2017\\Projects\\HackerRank\\HackerRank\\HackerRank.csproj",
-      "outputPath": "c:\\users\\corle\\OneDrive\\Documents\\Visual Studio 2017\\Projects\\HackerRank\\HackerRank\\obj\\",
+      "projectPath": "C:\\Users\\Corle\\Documents\\Github\\HackerRank\\HackerRank\\HackerRank.csproj",
+      "outputPath": "C:\\Users\\Corle\\Documents\\Github\\HackerRank\\HackerRank\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
