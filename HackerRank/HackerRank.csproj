@@ -5,9 +5,4 @@
     <TargetFramework>netcoreapp1.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Algorithms\Implementation\" />
-    <Folder Include="CodingInterview\" />
-  </ItemGroup>
-
 </Project>

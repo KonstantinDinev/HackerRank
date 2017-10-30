@@ -9,8 +9,8 @@ namespace HackerRank.Algorithms
     {
         public static void Init()
         {
-            Console.Write("n = ");
-            int n = Int32.Parse(Console.ReadLine());
+            //Console.Write("n = ");
+            int n = 10;//Int32.Parse(Console.ReadLine());
             int[,] a = new int[n,n];
 
             //input

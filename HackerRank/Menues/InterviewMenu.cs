@@ -40,7 +40,7 @@ namespace HackerRank.Menues
                 case 1:
                     {
                         Console.WriteLine("");
-                        
+                        CodingInterview.ArrayLeftRotation.Init();
                         Console.ReadKey(); Console.Clear();
                         Menu();
                         break;
@@ -48,7 +48,7 @@ namespace HackerRank.Menues
                 case 2:
                     {
                         Console.WriteLine("");
-                        
+                        CodingInterview.BalancedBrackets.Init();
                         Console.ReadKey(); Console.Clear();
                         Menu();
                         break;
@@ -56,7 +56,7 @@ namespace HackerRank.Menues
                 case 3:
                     {
                         Console.WriteLine("");
-                        
+                        CodingInterview.DavisStaircase.Init();
                         Console.ReadKey(); Console.Clear();
                         Menu();
                         break;

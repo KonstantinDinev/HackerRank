@@ -40,7 +40,7 @@ namespace HackerRank.Menues
                 case 1:
                     {
                         Console.WriteLine("");
-                        
+                        Algorithms.Implementation.GradingStudents.Init();
                         Console.ReadKey(); Console.Clear();
                         Menu();
                         break;
