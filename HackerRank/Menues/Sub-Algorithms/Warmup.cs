@@ -14,10 +14,10 @@ namespace HackerRank.Menues
         1. Triplets
         2. Diagonal Difference
         3. Plus-Minus
-        4. 
-        5. 
-        6. 
-        7. 
+        4. Staircase
+        5. Mini-Max Sum
+        6. Birthday Cake Candles
+        7. Time Conversion
         8. 
         9. 
 
@@ -64,7 +64,7 @@ namespace HackerRank.Menues
                 case 4:
                     {
                         Console.WriteLine("");
-
+                        Algorithms.Staircase.Init();
                         Console.ReadKey(); Console.Clear();
                         Menu();
                         break;
@@ -72,7 +72,7 @@ namespace HackerRank.Menues
                 case 5:
                     {
                         Console.WriteLine("");
-
+                        Algorithms.Mini_maxSum.Init();
                         Console.ReadKey(); Console.Clear();
                         Menu();
                         break;
@@ -80,7 +80,7 @@ namespace HackerRank.Menues
                 case 6:
                     {
                         Console.WriteLine("");
-
+                        Algorithms.BCakeCandles.Init();
                         Console.ReadKey(); Console.Clear();
                         Menu();
                         break;
@@ -88,7 +88,7 @@ namespace HackerRank.Menues
                 case 7:
                     {
                         Console.WriteLine("");
-
+                        Algorithms.TimeConversion.Init();
                         Console.ReadKey(); Console.Clear();
                         Menu();
                         break;

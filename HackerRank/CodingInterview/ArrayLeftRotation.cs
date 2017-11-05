@@ -36,16 +36,16 @@ namespace HackerRank.CodingInterview
             //foreach(int num in a) Console.Write(num + " ");
         }
 
-        static void RotateByOne(int[] arr, int n)
-        {
-            int temp = 0, i;
+        //static void RotateByOne(int[] arr, int n)
+        //{
+        //    int temp = 0, i;
 
-            for (i = 0; i < n - 1; i++)
-            {
-                temp = arr[i];
-                arr[i] = arr[i + 1];
-                arr[i + 1] = temp;
-            }
-        }
+        //    for (i = 0; i < n - 1; i++)
+        //    {
+        //        temp = arr[i];
+        //        arr[i] = arr[i + 1];
+        //        arr[i + 1] = temp;
+        //    }
+        //}
     }
 }
