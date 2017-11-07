@@ -27,3 +27,7 @@ Algorithms and Data Structures
   * Array Left Rotation
   * Balanced Brackets
   * Davis Staircase - Recursion
+
+* Expert Tasks
+  * Permutations - Lexicographic order
+  * Hackaton - Generating a list of permutation by forgotten digits, replaced with zeroes
