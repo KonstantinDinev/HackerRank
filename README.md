@@ -3,23 +3,25 @@ Algorithms and Data Structures
 
 * Algorithms 
   * Warmup
+  
+   * Triplets
+   * Diagonal Difference
+   * Plus-Minus
+   * Staircase
+   * Mini-Max Sum
+   * Birthday Cake Candles
+   * Time Conversion
 
-        * Triplets
-        * Diagonal Difference
-        * Plus-Minus
-        * Staircase
-        * Mini-Max Sum
-        * Birthday Cake Candles
-        * Time Conversion
-
-   * Implementation
-        * Grading Students
-   * Strings
-
-        * Ceaser Cipher
-        * Mars Exploration
-        * HackerRank in a String
-        * Camel Case
+  * Implementation
+  
+   * Grading Students
+   
+  * Strings
+  
+   * Ceaser Cipher
+   * Mars Exploration
+   * HackerRank in a String
+   * Camel Case
 
 * Coding Interview
   * Array Left Rotation
