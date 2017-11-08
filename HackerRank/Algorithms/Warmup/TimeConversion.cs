@@ -20,7 +20,7 @@ namespace HackerRank.Algorithms
         static string timeConversion(string time)
         {
             // Complete this function
-            DateTime dateTime = DateTime.ParseExact(time, "hh:mm:sstt",
+            DateTime dateTime = DateTime.ParseExact(time, "HH:mm:sstt",
                                                     System.Globalization.CultureInfo.InvariantCulture);
 
             return dateTime.ToString("HH:mm:ss");

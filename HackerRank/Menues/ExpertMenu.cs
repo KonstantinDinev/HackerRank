@@ -2,26 +2,26 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace HackerRank
+namespace HackerRank.Menues
 {
-    class MainMenu
+    class ExpertMenu
     {
-        static public void Menu()
+        public static void Menu()
         {
             string text = @"
-    You can select your choice by pressing a number from 0 to 9
+    Expert Tasks
 
-        1. Algorithms
-        2. Coding Interview
+        1. Permutation - Lexicographic order
+        2. Hackaton -> Generating missing permutations by forgotten digits marked with zero 0
         3. 
         4. 
         5. 
         6. 
         7. 
         8. 
-        9. Expert Track
+        9. 
 
-        0. Exit";
+        0. Back";
 
             Console.WriteLine(text);
             byte choice;
@@ -33,21 +33,22 @@ namespace HackerRank
             {
                 case 0:
                     {
-                        Environment.Exit(0);
+                        Console.Clear();
+                        MainMenu.Menu();
                         break;
                     }
                 case 1:
                     {
-                        Console.WriteLine(""); Console.Clear();
-                        Menues.Algorithm.Menu();
-                        Console.ReadKey();
+                        Console.Clear();
+                        Expert.Permutation_Lex.Init();
+                        //Console.ReadKey();
                         Menu();
                         break;
                     }
                 case 2:
                     {
                         Console.WriteLine(""); Console.Clear();
-                        Menues.InterviewMenu.Menu();
+                        Expert.PermHackaton.Init();
                         Console.ReadKey();
                         Menu();
                         break;
@@ -55,7 +56,7 @@ namespace HackerRank
                 case 3:
                     {
                         Console.WriteLine(""); Console.Clear();
-                        
+
                         Console.ReadKey();
                         Menu();
                         break;
@@ -103,7 +104,7 @@ namespace HackerRank
                 case 9:
                     {
                         Console.WriteLine(""); Console.Clear();
-                        Menues.ExpertMenu.Menu();
+
                         Console.ReadKey();
                         Menu();
                         break;

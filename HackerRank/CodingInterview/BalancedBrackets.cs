@@ -6,18 +6,21 @@ namespace HackerRank.CodingInterview
 {
     class BalancedBrackets
     {
-        //Input: 
-        // 3
-        //{[()]}
-        //{[(])}
-        //{{[[(())]]}}
         static public void Init()
         {
-            int t = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(@"
+        3
+        {[()]}
+        {[(])}
+        {{[[(())]]}}"
+);
+
+            int t = 3;//Convert.ToInt32(Console.ReadLine());
+            string[] expression = { "{[()]}", "{[(])}", "{{[[(())]]}}" };
             for (int a0 = 0; a0 < t; a0++)
             {
-                string expression = Console.ReadLine();
-                Console.WriteLine(Balance(expression));
+                //string expression = Console.ReadLine();
+                Console.WriteLine(Balance(expression[a0]));
             }
         }
 

@@ -6,19 +6,14 @@ namespace HackerRank.CodingInterview
 {
     class DavisStaircase
     {
-        //Input  //output
-        //3       
-        //1       1
-        //3       4
-        //7       44
         static public void Init()
         {
-            int s = Convert.ToInt32(Console.ReadLine());
+            int s = 3;// Convert.ToInt32(Console.ReadLine());
+            int[] n = {1, 3, 7};
             for (int a0 = 0; a0 < s; a0++)
             {
-                int n = Convert.ToInt32(Console.ReadLine());
-
-                Console.WriteLine(CountPaths(n, 3));
+                //int n = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine(CountPaths(n[a0], 3));
             }
         }
         static int CountPaths(int s, int m)

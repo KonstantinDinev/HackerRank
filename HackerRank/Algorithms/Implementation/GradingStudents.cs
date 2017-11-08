@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Linq;
 
-namespace HackerRank.Algorithms.Implementation
+namespace HackerRank.Algorithms
 {
     class GradingStudents
     {

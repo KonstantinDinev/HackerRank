@@ -12,9 +12,9 @@ namespace HackerRank.Menues
     Working with Strings:
 
         1. Ceaser Cipher
-        2. 
-        3. 
-        4. 
+        2. Mars Exploration
+        3. HackerRank in a String
+        4. Camel Case
         5. 
         6. 
         7. 
@@ -48,7 +48,7 @@ namespace HackerRank.Menues
                 case 2:
                     {
                         Console.WriteLine("");
-                        
+                        Algorithms.MarsExploration.Init();
                         Console.ReadKey(); Console.Clear();
                         Menu();
                         break;
@@ -56,7 +56,7 @@ namespace HackerRank.Menues
                 case 3:
                     {
                         Console.WriteLine("");
-                        
+                        Algorithms.HackerRankString.Init();
                         Console.ReadKey(); Console.Clear();
                         Menu();
                         break;
@@ -64,7 +64,7 @@ namespace HackerRank.Menues
                 case 4:
                     {
                         Console.WriteLine("");
-
+                        Algorithms.CamelCaseWords.Init();
                         Console.ReadKey(); Console.Clear();
                         Menu();
                         break;
