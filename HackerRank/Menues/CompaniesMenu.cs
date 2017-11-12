@@ -4,17 +4,17 @@ using System.Text;
 
 namespace HackerRank.Menues
 {
-    class ExpertMenu
+    class CompaniesMenu
     {
         public static void Menu()
         {
             string text = @"
-    Expert Tasks
+    List of Companies and their specific tasks for Junior positions
 
-        1. Permutation - Lexicographic order
-        2. Hackaton -> Generating missing permutations by forgotten digits marked with zero 0
-        3. 
-        4. 
+        1. SAP Bulgaria
+        2. MusalaSoft
+        3. Morgan Stanley Hungary
+        4. Line Corporation Japan
         5. 
         6. 
         7. 
@@ -39,16 +39,16 @@ namespace HackerRank.Menues
                     }
                 case 1:
                     {
-                        Expert.Permutation_Lex.Init();
-                        Console.ReadKey();
                         Console.Clear();
+                        SAPMenu.Menu();
+                        Console.ReadKey();
                         Menu();
                         break;
                     }
                 case 2:
                     {
                         Console.WriteLine(""); Console.Clear();
-                        Expert.PermHackaton.Init();
+                        MusalaMenu.Menu();
                         Console.ReadKey();
                         Menu();
                         break;
@@ -56,7 +56,7 @@ namespace HackerRank.Menues
                 case 3:
                     {
                         Console.WriteLine(""); Console.Clear();
-
+                        MorganMenu.Menu();
                         Console.ReadKey();
                         Menu();
                         break;
@@ -64,7 +64,7 @@ namespace HackerRank.Menues
                 case 4:
                     {
                         Console.WriteLine(""); Console.Clear();
-
+                        LineMenu.Menu();
                         Console.ReadKey();
                         Menu();
                         break;

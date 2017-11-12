@@ -34,7 +34,7 @@ namespace HackerRank.Menues
                 case 0:
                     {
                         Console.Clear();
-                        MainMenu.Menu();
+                        Algorithm.Menu();
                         break;
                     }
                 case 1:

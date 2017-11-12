@@ -1,0 +1,9 @@
+C:\Users\Corle\Documents\Github\HackerRank\HackerRank\bin\Release\netcoreapp1.1\HackerRank.deps.json
+C:\Users\Corle\Documents\Github\HackerRank\HackerRank\bin\Release\netcoreapp1.1\HackerRank.runtimeconfig.json
+C:\Users\Corle\Documents\Github\HackerRank\HackerRank\bin\Release\netcoreapp1.1\HackerRank.runtimeconfig.dev.json
+C:\Users\Corle\Documents\Github\HackerRank\HackerRank\bin\Release\netcoreapp1.1\HackerRank.dll
+C:\Users\Corle\Documents\Github\HackerRank\HackerRank\bin\Release\netcoreapp1.1\HackerRank.pdb
+C:\Users\Corle\Documents\Github\HackerRank\HackerRank\obj\Release\netcoreapp1.1\HackerRank.csprojResolveAssemblyReference.cache
+C:\Users\Corle\Documents\Github\HackerRank\HackerRank\obj\Release\netcoreapp1.1\HackerRank.AssemblyInfo.cs
+C:\Users\Corle\Documents\Github\HackerRank\HackerRank\obj\Release\netcoreapp1.1\HackerRank.dll
+C:\Users\Corle\Documents\Github\HackerRank\HackerRank\obj\Release\netcoreapp1.1\HackerRank.pdb

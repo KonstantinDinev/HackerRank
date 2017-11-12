@@ -1,11 +1,44 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.IO;
 
 namespace HackerRank.CodingInterview
 {
     class BalancedBrackets
     {
+        static private void TestCase()
+        {
+            using (var stream = new FileStream("CodingInterview\\tests\\BalancedBrackets\\bbTEST.txt", FileMode.Open))
+            using (var expectedResults = File.OpenText("CodingInterview\\tests\\BalancedBrackets\\output.txt"))
+            using (StreamReader sr = new StreamReader(stream))
+            {
+                int n = Int32.Parse(sr.ReadLine());
+                string[] exp = new string[n];
+                string[] testOutput = new string[n];
+
+                for (int i = 0; i < n; i++)
+                {
+                    exp[i] = sr.ReadLine();
+                    testOutput[i] = expectedResults.ReadLine();
+                    //Console.WriteLine(Balance(exp[i]));
+
+                    if(Balance(exp[i]).Equals(testOutput[i]))
+                    {
+                        Console.ForegroundColor = ConsoleColor.DarkGreen;
+                        Console.Write("\tOK"); Console.ResetColor();
+                        Console.WriteLine("\tTEST {0}: {1} == {2} \n", i, Balance(exp[i]), testOutput[i]);
+                    }
+                    else
+                    {
+                        Console.ForegroundColor = ConsoleColor.DarkRed;
+                        Console.Write("INCORRECT"); Console.ResetColor();
+                        Console.WriteLine("\tTEST {0}: {1} == {2} \n", i, Balance(exp[i]), testOutput[i]);
+                    }
+                }
+            }
+            Console.ReadLine();
+        }
         static public void Init()
         {
             Console.WriteLine(@"
@@ -22,6 +55,9 @@ namespace HackerRank.CodingInterview
                 //string expression = Console.ReadLine();
                 Console.WriteLine(Balance(expression[a0]));
             }
+
+            Console.Write("\nWould you like to run a test case? (y/n) : ");
+            if (Console.ReadLine() == "y") TestCase();
         }
 
         static string Balance(string expr)

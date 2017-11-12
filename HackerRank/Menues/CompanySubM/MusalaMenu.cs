@@ -4,15 +4,15 @@ using System.Text;
 
 namespace HackerRank.Menues
 {
-    class ExpertMenu
+    class MusalaMenu
     {
-        public static void Menu()
+        static public void Menu()
         {
             string text = @"
-    Expert Tasks
+    MusalaSoft
 
-        1. Permutation - Lexicographic order
-        2. Hackaton -> Generating missing permutations by forgotten digits marked with zero 0
+        1. Grading Students
+        2. 
         3. 
         4. 
         5. 
@@ -34,78 +34,78 @@ namespace HackerRank.Menues
                 case 0:
                     {
                         Console.Clear();
-                        MainMenu.Menu();
+                        CompaniesMenu.Menu();
                         break;
                     }
                 case 1:
                     {
-                        Expert.Permutation_Lex.Init();
-                        Console.ReadKey();
-                        Console.Clear();
+                        Console.WriteLine("");
+                        Algorithms.GradingStudents.Init();
+                        Console.ReadKey(); Console.Clear();
                         Menu();
                         break;
                     }
                 case 2:
                     {
-                        Console.WriteLine(""); Console.Clear();
-                        Expert.PermHackaton.Init();
-                        Console.ReadKey();
+                        Console.WriteLine("");
+
+                        Console.ReadKey(); Console.Clear();
                         Menu();
                         break;
                     }
                 case 3:
                     {
-                        Console.WriteLine(""); Console.Clear();
+                        Console.WriteLine("");
 
-                        Console.ReadKey();
+                        Console.ReadKey(); Console.Clear();
                         Menu();
                         break;
                     }
                 case 4:
                     {
-                        Console.WriteLine(""); Console.Clear();
+                        Console.WriteLine("");
 
-                        Console.ReadKey();
+                        Console.ReadKey(); Console.Clear();
                         Menu();
                         break;
                     }
                 case 5:
                     {
-                        Console.WriteLine(""); Console.Clear();
+                        Console.WriteLine("");
 
-                        Console.ReadKey();
+                        Console.ReadKey(); Console.Clear();
                         Menu();
                         break;
                     }
                 case 6:
                     {
-                        Console.WriteLine(""); Console.Clear();
+                        Console.WriteLine("");
 
-                        Console.ReadKey();
+                        Console.ReadKey(); Console.Clear();
                         Menu();
                         break;
                     }
                 case 7:
                     {
-                        Console.WriteLine(""); Console.Clear();
+                        Console.WriteLine("");
 
-                        Console.ReadKey();
+                        Console.ReadKey(); Console.Clear();
                         Menu();
                         break;
                     }
                 case 8:
                     {
-                        Console.WriteLine(""); Console.Clear();
+                        Console.WriteLine("");
 
-                        Console.ReadKey();
+                        Console.ReadKey(); Console.Clear();
                         Menu();
                         break;
                     }
                 case 9:
                     {
-                        Console.WriteLine(""); Console.Clear();
+                        Console.WriteLine("");
 
-                        Console.ReadKey();
+                        Console.ReadKey(); Console.Clear();
                         Menu();
                         break;
                     }

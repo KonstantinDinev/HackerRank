@@ -13,7 +13,7 @@ namespace HackerRank
 
         1. Algorithms
         2. Coding Interview
-        3. 
+        3. Company Interviews
         4. 
         5. 
         6. 
@@ -55,7 +55,7 @@ namespace HackerRank
                 case 3:
                     {
                         Console.WriteLine(""); Console.Clear();
-                        
+                        Menues.CompaniesMenu.Menu();
                         Console.ReadKey();
                         Menu();
                         break;

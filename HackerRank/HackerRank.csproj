@@ -1,8 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
+    <RuntimeIdentifiers>win10-x64;ubuntu.16.10-x64</RuntimeIdentifiers>
+    <OutputType>exe</OutputType>
     <TargetFramework>netcoreapp1.1</TargetFramework>
+    <ApplicationIcon />
+    <OutputTypeEx>exe</OutputTypeEx>
+    <StartupObject />
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Companies\MusalaSoft\" />
+    <Folder Include="Companies\MorganStanley\" />
+    <Folder Include="Companies\LineCorp\" />
+  </ItemGroup>
 
 </Project>

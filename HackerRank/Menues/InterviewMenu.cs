@@ -49,7 +49,7 @@ namespace HackerRank.Menues
                     {
                         Console.WriteLine("");
                         CodingInterview.BalancedBrackets.Init();
-                        Console.ReadKey(); Console.Clear();
+                        Console.Clear();
                         Menu();
                         break;
                     }

@@ -1,0 +1,12 @@
+C:\Users\Corle\Documents\Github\HackerRank\HackerRank\bin\Release\netcoreapp1.1\win10-x64\hostpolicy.dll
+C:\Users\Corle\Documents\Github\HackerRank\HackerRank\bin\Release\netcoreapp1.1\win10-x64\hostfxr.dll
+C:\Users\Corle\Documents\Github\HackerRank\HackerRank\bin\Release\netcoreapp1.1\win10-x64\HackerRank.exe
+C:\Users\Corle\Documents\Github\HackerRank\HackerRank\bin\Release\netcoreapp1.1\win10-x64\HackerRank.deps.json
+C:\Users\Corle\Documents\Github\HackerRank\HackerRank\bin\Release\netcoreapp1.1\win10-x64\HackerRank.runtimeconfig.json
+C:\Users\Corle\Documents\Github\HackerRank\HackerRank\bin\Release\netcoreapp1.1\win10-x64\HackerRank.runtimeconfig.dev.json
+C:\Users\Corle\Documents\Github\HackerRank\HackerRank\bin\Release\netcoreapp1.1\win10-x64\HackerRank.dll
+C:\Users\Corle\Documents\Github\HackerRank\HackerRank\bin\Release\netcoreapp1.1\win10-x64\HackerRank.pdb
+C:\Users\Corle\Documents\Github\HackerRank\HackerRank\obj\Release\netcoreapp1.1\win10-x64\HackerRank.csprojResolveAssemblyReference.cache
+C:\Users\Corle\Documents\Github\HackerRank\HackerRank\obj\Release\netcoreapp1.1\win10-x64\HackerRank.AssemblyInfo.cs
+C:\Users\Corle\Documents\Github\HackerRank\HackerRank\obj\Release\netcoreapp1.1\win10-x64\HackerRank.dll
+C:\Users\Corle\Documents\Github\HackerRank\HackerRank\obj\Release\netcoreapp1.1\win10-x64\HackerRank.pdb
