@@ -27,6 +27,12 @@ Algorithms and Data Structures
   * Array Left Rotation
   * Balanced Brackets
   * Davis Staircase - Recursion
+  
+* Companies
+
+  * SAP Bulgaria
+    * Common Occurrences
+    * Animal Shelter
 
 * Expert Tasks
   * Permutations - Lexicographic order
