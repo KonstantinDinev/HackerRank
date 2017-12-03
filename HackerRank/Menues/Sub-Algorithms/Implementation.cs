@@ -12,7 +12,7 @@ namespace HackerRank.Menues
     Implementation Algorithms:
 
         1. Grading Students
-        2. 
+        2. Divisible Sum Pairs
         3. 
         4. 
         5. 
@@ -48,7 +48,7 @@ namespace HackerRank.Menues
                 case 2:
                     {
                         Console.WriteLine("");
-                        
+                        Algorithms.DivisibleSumPairs.Init();
                         Console.ReadKey(); Console.Clear();
                         Menu();
                         break;

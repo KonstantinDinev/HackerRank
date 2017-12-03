@@ -15,8 +15,8 @@ namespace HackerRank.Menues
         2. Mars Exploration
         3. HackerRank in a String
         4. Camel Case
-        5. 
-        6. 
+        5. Super Reduced String
+        6. Pangrams
         7. 
         8. 
         9. 
@@ -72,7 +72,7 @@ namespace HackerRank.Menues
                 case 5:
                     {
                         Console.WriteLine("");
-
+                        Algorithms.SuperReducedString.Init();
                         Console.ReadKey(); Console.Clear();
                         Menu();
                         break;
@@ -80,7 +80,7 @@ namespace HackerRank.Menues
                 case 6:
                     {
                         Console.WriteLine("");
-
+                        Algorithms.Pangrams.Init();
                         Console.ReadKey(); Console.Clear();
                         Menu();
                         break;
