@@ -15,6 +15,7 @@ Algorithms and Data Structures
   * Implementation
   
     * Grading Students
+    * Divisible Sum Pairs
    
   * Strings
   
@@ -22,6 +23,8 @@ Algorithms and Data Structures
     * Mars Exploration
     * HackerRank in a String
     * Camel Case
+    * Super Reduced Strings
+    * Pangrams
 
 * Coding Interview
   * Array Left Rotation
